@@ -25,6 +25,22 @@ class App{
 			unset($url[1]);
 		}
 
+		//access filtering
+		//attribute discovery
+		$reflection = new \ReflectionObject($this->controller);
+
+		$classAttributes = $reflection->getAttributes();
+		$methodAttributes = $reflection->getMethod($this->method)->getAttributes();
+
+		$attributes = array_values(array_merge($classAttributes, $methodAttributes));
+
+		//running the attribute class methods
+		foreach ($attributes as $attribute) {
+			$filter = $attribute->newInstance();//making the object of class, e.g., Login
+			if($filter->execute())
+				return;
+		}
+		
 		$params = $url ? array_values($url) : [];
 		call_user_func_array([ $this->controller, $this->method ], $params);
 	}
