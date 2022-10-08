@@ -94,7 +94,7 @@
                             <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 2.png" alt=""></div>
                             <p class="username">modern_web_channel</p>
                         </div>
-                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 2.png" class="options" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
                     <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 2.png" class="post-image" alt="">
                     <div class="post-content">
@@ -151,29 +151,29 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="../img/cover 4.png" alt=""></div>
+                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 4.png" alt=""></div>
                             <p class="username">modern_web_channel</p>
                         </div>
-                        <img src="../img/option.PNG" class="options" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="../img/cover 4.png" class="post-image" alt="">
+                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 4.png" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
-                            <img src="../img/like.PNG" class="icon" alt="">
-                            <img src="../img/comment.PNG" class="icon" alt="">
-                            <img src="../img/send.PNG" class="icon" alt="">
-                            <img src="../img/save.PNG" class="save icon" alt="">
-                        </div>
-                        <p class="likes">1,012 likes</p>
-                        <p class="description"><span>username</span>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book.</p>
-                        <p class="post-time">2 minutes ago</p>
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/comment.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/send.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
+                    </div>
+                    <p class="likes">1,012 likes</p>
+                    <p class="description"><span>username</span>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting 
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type 
+                    and scrambled it to make a type specimen book.</p>
+                    <p class="post-time">2 minutes ago</p>
                     </div>
                     <div class="comment-wrapper">
-                        <img src="../img/smile.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
                         <input type="text" class="comment-box" placeholder="Add a comment">
                         <button class="comment-btn">post</button>
                     </div>
@@ -181,29 +181,29 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="../img/cover 5.png" alt=""></div>
+                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 5.png" alt=""></div>
                             <p class="username">modern_web_channel</p>
                         </div>
-                        <img src="../img/option.PNG" class="options" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="../img/cover 5.png" class="post-image" alt="">
+                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 5.png" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
-                            <img src="../img/like.PNG" class="icon" alt="">
-                            <img src="../img/comment.PNG" class="icon" alt="">
-                            <img src="../img/send.PNG" class="icon" alt="">
-                            <img src="../img/save.PNG" class="save icon" alt="">
-                        </div>
-                        <p class="likes">1,012 likes</p>
-                        <p class="description"><span>username</span>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book.</p>
-                        <p class="post-time">2 minutes ago</p>
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/comment.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/send.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
+                    </div>
+                    <p class="likes">1,012 likes</p>
+                    <p class="description"><span>username</span>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting 
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type 
+                    and scrambled it to make a type specimen book.</p>
+                    <p class="post-time">2 minutes ago</p>
                     </div>
                     <div class="comment-wrapper">
-                        <img src="../img/smile.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
                         <input type="text" class="comment-box" placeholder="Add a comment">
                         <button class="comment-btn">post</button>
                     </div>
@@ -211,29 +211,29 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="../img/cover 6.png" alt=""></div>
+                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 6.png" alt=""></div>
                             <p class="username">modern_web_channel</p>
                         </div>
-                        <img src="../img/option.PNG" class="options" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="../img/cover 6.png" class="post-image" alt="">
+                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 6.png" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
-                            <img src="../img/like.PNG" class="icon" alt="">
-                            <img src="../img/comment.PNG" class="icon" alt="">
-                            <img src="../img/send.PNG" class="icon" alt="">
-                            <img src="../img/save.PNG" class="save icon" alt="">
-                        </div>
-                        <p class="likes">1,012 likes</p>
-                        <p class="description"><span>username</span>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book.</p>
-                        <p class="post-time">2 minutes ago</p>
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/comment.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/send.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
+                    </div>
+                    <p class="likes">1,012 likes</p>
+                    <p class="description"><span>username</span>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting 
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type 
+                    and scrambled it to make a type specimen book.</p>
+                    <p class="post-time">2 minutes ago</p>
                     </div>
                     <div class="comment-wrapper">
-                        <img src="../img/smile.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
                         <input type="text" class="comment-box" placeholder="Add a comment">
                         <button class="comment-btn">post</button>
                     </div>
@@ -241,29 +241,29 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="../img/cover 7.png" alt=""></div>
+                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 7.png" alt=""></div>
                             <p class="username">modern_web_channel</p>
                         </div>
-                        <img src="../img/option.PNG" class="options" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="../img/cover 7.png" class="post-image" alt="">
+                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 7.png" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
-                            <img src="../img/like.PNG" class="icon" alt="">
-                            <img src="../img/comment.PNG" class="icon" alt="">
-                            <img src="../img/send.PNG" class="icon" alt="">
-                            <img src="../img/save.PNG" class="save icon" alt="">
-                        </div>
-                        <p class="likes">1,012 likes</p>
-                        <p class="description"><span>username</span>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book.</p>
-                        <p class="post-time">2 minutes ago</p>
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/comment.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/send.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
+                    </div>
+                    <p class="likes">1,012 likes</p>
+                    <p class="description"><span>username</span>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting 
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type 
+                    and scrambled it to make a type specimen book.</p>
+                    <p class="post-time">2 minutes ago</p>
                     </div>
                     <div class="comment-wrapper">
-                        <img src="../img/smile.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
                         <input type="text" class="comment-box" placeholder="Add a comment">
                         <button class="comment-btn">post</button>
                     </div>
@@ -271,29 +271,29 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="../img/cover 8.png" alt=""></div>
+                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 8.png" alt=""></div>
                             <p class="username">modern_web_channel</p>
                         </div>
-                        <img src="../img/option.PNG" class="options" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="../img/cover 8.png" class="post-image" alt="">
+                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 8.png" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
-                            <img src="../img/like.PNG" class="icon" alt="">
-                            <img src="../img/comment.PNG" class="icon" alt="">
-                            <img src="../img/send.PNG" class="icon" alt="">
-                            <img src="../img/save.PNG" class="save icon" alt="">
-                        </div>
-                        <p class="likes">1,012 likes</p>
-                        <p class="description"><span>username</span>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book.</p>
-                        <p class="post-time">2 minutes ago</p>
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/comment.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/send.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
+                    </div>
+                    <p class="likes">1,012 likes</p>
+                    <p class="description"><span>username</span>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting 
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of type 
+                    and scrambled it to make a type specimen book.</p>
+                    <p class="post-time">2 minutes ago</p>
                     </div>
                     <div class="comment-wrapper">
-                        <img src="../img/smile.PNG" class="icon" alt="">
+                        <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
                         <input type="text" class="comment-box" placeholder="Add a comment">
                         <button class="comment-btn">post</button>
                     </div>
