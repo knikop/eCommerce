@@ -32,9 +32,9 @@ if(isset($_GET['error'])){
             <div class="right"></div>
         </div>
         <form action="" class="details" method="post">
-            <input class="box2" type="text" name="username" placeholder="Username" required />
-            <input class="box3" type="password" name="password" placeholder="password" required />
-            <input class="box4" type="password" name="password-confirm" placeholder="Confirm Password" required />
+		<input  class="box2" type="text" name="username" placeholder="Username"/><br>
+		<input  class="box3" type="password" name="password" placeholder="Password"/><br>
+		<input  class="box4" type="password" name="password_confirm" placeholder="Confirm Password"/><br>
             <div class="sign-up-btn">
                 <input class="btn2" type="submit" name="action" value="Sign up" />
             </div>

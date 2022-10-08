@@ -11,17 +11,17 @@
 	<div class="header">
 		<div class="top">
 			<div class="logo">
-				<img src="../img/logo.PNG" alt="instagram" style="width: 175px;">
+				<img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/logo.PNG" alt="instagram" style="width: 175px;">
 			</div>
-			<div class="form">
+			<form action="" class="form" method='post'>
 				<div class="input_field">
-					<input type="text" placeholder="Phone number, username, or email" class="input">
+					<input type="text" placeholder="username" name="username" class="input">
 				</div>
 				<div class="input_field">
-					<input type="password" placeholder="Password" class="input">
+					<input type="password" placeholder="Password" name="password" class="input">
 				</div>
-				<div class="btn"><a href="#">Log In</a></div>
-			</div>
+				<div class="btn"><input type="submit" name="action" value="Login" /></div>
+			</form>
 			<div class="or">
 				<div class="line"></div>
 				<p>OR</p>
@@ -29,7 +29,7 @@
 			</div>
 			<div class="dif">
 				<div class="fb">
-					<img src="../img/facebook.png" alt="facebook">
+					<img src="https://github.com/knikop/eCommerce/blob/main/app/views/img/facebook.png?raw=true" alt="facebook">
 					<p>Log in with Facebook</p>
 				</div>
 				<div class="forgot">
@@ -43,8 +43,8 @@
 		<div class="apps">
 			<p>Get the app.</p>
 			<div class="icons">
-				<a href="#"><img src="../img/appstore.png" alt="appstore"></a>
-				<a href="#"><img src="../img/googleplay.png" alt="googleplay"></a>
+				<a href="#"><img src="https://github.com/knikop/eCommerce/blob/main/app/views/img/appstore.png?raw=true" alt="appstore"></a>
+				<a href="#"><img src="https://github.com/knikop/eCommerce/blob/main/app/views/img/googleplay.png?raw=true" alt="googleplay"></a>
 			</div>
 		</div>
 	</div>
