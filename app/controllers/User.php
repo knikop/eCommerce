@@ -1,9 +1,9 @@
 <?php
 namespace app\controllers;
 
-class User extends \app\core\Controller{
-
-	public function index(){//login page
+class Main extends \app\core\Controller {
+    public function index()
+    {
 		if(isset($_POST['action'])){
 			$user = new \app\models\User();
 			$user = $user->get($_POST['username']);
@@ -39,7 +39,7 @@ class User extends \app\core\Controller{
 				header('location:/User/account?error=Wrong old password provided.');
 			}
 		}else{
-			$this->view('Main/index');
+			$this->view('User/account');
 		}
 	}
 
@@ -65,6 +65,7 @@ class User extends \app\core\Controller{
 			}else{
 				header('location:/User/register?error=Passwords do not match.');
 			}
+
 		}else{
 			$this->view('User/register');
 		}
@@ -75,6 +76,4 @@ class User extends \app\core\Controller{
 	public function admin(){
 		echo "Yay!";
 	}
-
-
 }

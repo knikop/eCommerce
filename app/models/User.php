@@ -24,5 +24,4 @@ class User extends \app\core\Model{
 		$STMT->execute(['password_hash'=>$this->password_hash,
 						'user_id'=>$this->user_id]);
 	}
-
 }
