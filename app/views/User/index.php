@@ -7,6 +7,16 @@
 </head>
 <body>
 
+<?php
+if(isset($_GET['error'])){
+?>
+<div class="alert alert-danger" role="alert">
+	<?=$_GET['error']?>
+</div>
+<?php
+}
+?>
+
 <div class="wrapper">
 	<div class="header">
 		<div class="top">
@@ -38,7 +48,7 @@
 			</div>
 		</div>
 		<div class="signup">
-			<p>Don't have an account? <a href="#">Sign up</a></p>
+			<p>Don't have an account? <a href="/User/register">Sign up</a></p>
 		</div>
 		<div class="apps">
 			<p>Get the app.</p>

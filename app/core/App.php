@@ -6,17 +6,24 @@ class App{
 	private $method = 'index';
 
 	public function __construct(){
+		//echo $_GET['url'];
+		//TODO: replace this echo with the routing algorithm
+		//goal: separate the url in parts
+
+		$url = self::parseUrl(); //get the url parsed and returned as an array of URL segment
 		
-		$url = self::parseUrl(); 
-		
+		//use the first part to determine the controller class to load
+
 		if(isset($url[0])){
 			if(file_exists('app/controllers/' . $url[0] . '.php')){
-				$this->controller = $url[0];
+				$this->controller = $url[0]; //$this refers to the current object
 			}
 			unset($url[0]);
 		}
-		$this->controller = 'app\\controllers\\' . $this->controller; 
+		$this->controller = 'app\\controllers\\' . $this->controller; //provide a fully qualified classname
 		$this->controller = new $this->controller;
+
+		//use the second part to determine the method to run
 
 		if(isset($url[1])){
 			if(method_exists($this->controller, $url[1])){
@@ -40,7 +47,9 @@ class App{
 			if($filter->execute())
 				return;
 		}
-		
+
+		//...while passing all other parts as arguments
+		//repackage the parameters
 		$params = $url ? array_values($url) : [];
 		call_user_func_array([ $this->controller, $this->method ], $params);
 	}

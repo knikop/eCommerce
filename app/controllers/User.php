@@ -1,9 +1,9 @@
 <?php
 namespace app\controllers;
 
-class Main extends \app\core\Controller {
-    public function index()
-    {
+class User extends \app\core\Controller{
+
+	public function index(){//login page
 		if(isset($_POST['action'])){
 			$user = new \app\models\User();
 			$user = $user->get($_POST['username']);
@@ -11,7 +11,7 @@ class Main extends \app\core\Controller {
 				$_SESSION['user_id'] = $user->user_id;
 				$_SESSION['username'] = $user->username;
 				$_SESSION['role'] = $user->role;
-				header('location:/User/account');
+				header('location:/Main/index');
 			}else{
 				header('location:/User/index?error=Wrong username/password combination!');
 			}
@@ -44,8 +44,10 @@ class Main extends \app\core\Controller {
 	}
 
 	public function logout(){
+		if(isset($_POST['logout'])){
 		session_destroy();
 		header('location:/User/index');
+		}
 	}
 
 	public function register(){
@@ -76,4 +78,6 @@ class Main extends \app\core\Controller {
 	public function admin(){
 		echo "Yay!";
 	}
+
+
 }

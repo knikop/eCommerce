@@ -53,7 +53,7 @@ if(isset($_GET['error'])){
         </div>
         <div class="login-box" style="display: flex">
             <h3>Have an account?</h3>
-            <a href="./index.html">Log In</a>
+            <a href="/User/index">Log In</a>
         </div>
         <div class="download">
             <h3>Get the app.</h3>
