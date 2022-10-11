@@ -17,7 +17,9 @@
                 <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/add.PNG" class="icon" alt="">
                 <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/explore.PNG" class="icon" alt="">
                 <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
-				<form action="" method="post" class="icon"><button type="submit" name="logout" value="call">Logout</button></form>
+                <form action="" method="post" class="icon"><button type="submit" name="login" value="call"><a href="/User/index">Login</a></button></form>
+				<form action="" method="post" class="icon"><button type="submit" name="logout" value="call"><a href="/Main/index">Logout</a></button></form>
+                
                 <div class="icon user-profile"></div>
             </div>
         </div>
