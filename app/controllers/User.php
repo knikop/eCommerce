@@ -20,29 +20,6 @@ class User extends \app\core\Controller{
 		}
 	}
 
-	#[\app\filters\Login]
-	public function account(){
-		//password modification
-		if(isset($_POST['action'])){
-			//check the old password
-			$user = new \app\models\User();
-			$user = $user->get($_SESSION['username']);
-			if(password_verify($_POST['old_password'],$user->password_hash)){
-				if($_POST['password'] == $_POST['password_confirm']){
-					$user->password_hash = password_hash($_POST['password'], PASSWORD_DEFAULT);
-					$user->updatePassword();
-					header('location:/User/account?message=Password changed successfully.');
-				}else{
-					header('location:/User/account?error=Passwords do not match.');
-				}
-			}else{
-				header('location:/User/account?error=Wrong old password provided.');
-			}
-		}else{
-			$this->view('User/account');
-		}
-	}
-
 	public function logout(){
 		if(isset($_POST['logout'])){
 		session_destroy();
@@ -73,11 +50,4 @@ class User extends \app\core\Controller{
 		}
 
 	}
-
-	#[\app\filters\Admin]
-	public function admin(){
-		echo "Yay!";
-	}
-
-
 }
