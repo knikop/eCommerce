@@ -12,6 +12,5 @@
 	<label>Contact:<input type="text" name="contact" /></label><br>
 	<input type="submit" name="action" value="Add owner" />
 </form>
-
 </body>
 </html>

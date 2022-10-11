@@ -34,5 +34,4 @@ class Profile extends \app\core\Model {
         $STMT->execute(['first_name'=>$this->first_name, 'middle_name'=>$this->middle_name, 
         'last_name'=>$this->last_name, 'profile_id'=>$this->profile_id]);
     }
-
 }
