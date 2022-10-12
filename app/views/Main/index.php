@@ -30,7 +30,7 @@
                 <div class="status-wrapper">
                     <div class="status-card">
                         <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 1.png" alt=""></div>
-                        <p class="username">user_name_1</p>
+                        <p class="username">ubisoftgamer999</p>
                     </div>
                     <div class="status-card">
                         <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 2.png" alt=""></div>
