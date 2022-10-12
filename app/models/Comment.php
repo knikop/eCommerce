@@ -4,7 +4,7 @@ namespace app\models;
 class Comment extends \app\core\Model{
     //needs validation from the user's id and post's id before adding comment.
 	public function insert(/*$publication_id, $profile_id*/){
-		$SQL = "INSERT INTO comment(publication_id, profile_id, comment) VALUES (:publication_id, :profile_id, :comment)";
+		$SQL = "INSERT INTO comment(comment) VALUES (:comment)";
 		$STMT = self::$_connection->prepare($SQL);
 		$STMT->execute(['comment'=>$this->comment]);
 	}

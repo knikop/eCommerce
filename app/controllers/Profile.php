@@ -3,10 +3,10 @@ namespace app\controllers;
 
 class Profile extends \app\core\Controller {
 
-    public function index($profile_id) {
+    public function index() {
         $profile = new \app\models\Profile();
-        $cp = $profile->get($profile_id);
-        $this->view('Main/index', $cp);
+        $profiles = $profile->getAll();
+        $this->view('Profile/index',$profiles);
     }
     
 }

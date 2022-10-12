@@ -283,71 +283,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="right-col">
-                <div class="profile-card">
-                    <div class="profile-pic">
-                        <a href="https://www.google.com"><img src="https://github.com/knikop/eCommerce/blob/main/app/views/img/profile-pic.png?raw=true" alt=""></a>
-                    </div>
-                    <div>
-                        <p class="username">modern_web_channel</p>
-                        <p class="sub-text">Francois Legault</p>
-                    </div>
-                    <button class="action-btn">switch</button>
-                </div>
-                <p class="suggestion-text">Suggestions for you</p>
-                <div class="profile-card">
-                    <div class="profile-pic">
-                        <img src="https://github.com/knikop/eCommerce/blob/main/app/views/img/profile-pic.png?raw=true" alt="">
-                    </div>
-                    <div>
-                        <p class="username">modern_web_channel</p>
-                        <p class="sub-text">followed by user</p>
-                    </div>
-                    <button class="action-btn">follow</button>
-                </div>
-                <div class="profile-card">
-                    <div class="profile-pic">
-                        <img src="https://github.com/knikop/eCommerce/blob/main/app/views/img/profile-pic.png?raw=true" alt="">
-                    </div>
-                    <div>
-                        <p class="username">modern_web_channel</p>
-                        <p class="sub-text">followed by user</p>
-                    </div>
-                    <button class="action-btn">follow</button>
-                </div>
-                <div class="profile-card">
-                    <div class="profile-pic">
-                        <img src="https://github.com/knikop/eCommerce/blob/main/app/views/img/profile-pic.png?raw=true" alt="">
-                    </div>
-                    <div>
-                        <p class="username">modern_web_channel</p>
-                        <p class="sub-text">followed by user</p>
-                    </div>
-                    <button class="action-btn">follow</button>
-                </div>
-                <div class="profile-card">
-                    <div class="profile-pic">
-                        <img src="https://github.com/knikop/eCommerce/blob/main/app/views/img/profile-pic.png?raw=true" alt="">
-                    </div>
-                    <div>
-                        <p class="username">modern_web_channel</p>
-                        <p class="sub-text">followed by user</p>
-                    </div>
-                    <button class="action-btn">follow</button>
-                </div>
-                <div class="profile-card">
-                    <div class="profile-pic">
-                        <img src="https://github.com/knikop/eCommerce/blob/main/app/views/img/profile-pic.png?raw=true" alt="">
-                    </div>
-                    <div>
-                        <p class="username">modern_web_channel</p>
-                        <p class="sub-text">followed by user</p>
-                    </div>
-                    <button class="action-btn">follow</button>
-                </div>
-            </div>
-        </div>
+</div>
     </section>
 </body>
 <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');

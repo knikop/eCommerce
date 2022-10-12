@@ -8,13 +8,11 @@
 <body>
 
 <h1>Profile</h1>
-<?php
-	$this->view('Profile/profileDetails', $data['user']);
-?>
 
-<h1>List of Comments</h1>
+
+<h1>List of Profiles</h1>
 <p><!--display the data as a table-->
-	<a href="/Comment/addComment/<?= $data['user']->user_id ?>">Add a new Comment</a>
+	<!-- <a href="/Comment/addComment/<?= $data['user']->user_id ?>">Add a new Comment</a> -->
 	<table>
 		
 	<?php
@@ -25,9 +23,7 @@
         <td type=name>$item->middle_name</td>
         <td type=name>$item->last_name</td>
 		<td type=action>
-		<a href='/Comment/edit/$item->comment_id'>edit</a> | 
-		<a href='/Comment/details/$item->comment_id'>details</a> |
-		<a href='/Comment/delete/$item->comment_id'>delete</a>
+		
 		</td>
 		</tr>";
 	}
@@ -35,7 +31,7 @@
 ?>
 </table>
 </p>
-
+<a href='/Comment/index'>Add Comment</a>
 <a href='/Main/index'>Back to Main page</a>
 
 </body>
