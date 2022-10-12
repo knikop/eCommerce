@@ -29,47 +29,47 @@
             <div class="left-col">
                 <div class="status-wrapper">
                     <div class="status-card">
-                        <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 1.png" alt=""></div>
+                        <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/144-1448377_logo-ubisoft-logo-png-transparent-png.png?raw=true" alt=""></div>
                         <p class="username">ubisoftgamer999</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 2.png" alt=""></div>
-                        <p class="username">user_name_2</p>
+                        <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/jujustsukaisen.png?raw=true" alt=""></div>
+                        <p class="username">animelover69</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 3.png" alt=""></div>
-                        <p class="username">user_name_3</p>
+                        <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/1218437.jpg?raw=true" alt=""></div>
+                        <p class="username">luxuryhouse_emporium</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 4.png" alt=""></div>
-                        <p class="username">user_name_4</p>
+                        <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/152288.jpg?raw=true" alt=""></div>
+                        <p class="username">callofdutyManiac</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 5.png" alt=""></div>
-                        <p class="username">user_name_5</p>
+                        <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/pokemon-tcg-live-preview-1645242791988.jpg?raw=true" alt=""></div>
+                        <p class="username">pokemonenthusiast</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 6.png" alt=""></div>
-                        <p class="username">user_name_6</p>
+                        <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/Yugioh.png?raw=true" alt=""></div>
+                        <p class="username">iloveYugioh</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 7.png" alt=""></div>
-                        <p class="username">user_name_7</p>
+                        <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/istockphoto-1157159213-612x612.jpg?raw=true" alt=""></div>
+                        <p class="username">theREALpcgamer</p>
                     </div>
                     <div class="status-card">
-                        <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 8.png" alt=""></div>
-                        <p class="username">user_name_8</p>
+                        <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/2022-rolls-royce-ghost-black-badge-105-16gg-1643905036.jpeg?raw=true" alt=""></div>
+                        <p class="username">luxuryCarZ</p>
                     </div>
                 </div>
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 1.png" alt=""></div>
-                            <p class="username">modern_web_channel</p>
+                            <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/144-1448377_logo-ubisoft-logo-png-transparent-png.png?raw=true" alt=""></div>
+                            <p class="username">ubisoftgamer999</p>
                         </div>
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 1.png" class="post-image" alt="">
+                    <img src="https://github.com/knikop/eCommerce/blob/main/profilepics/rainbow-six-siege-logo-header.-1.jpg?raw=true" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
                             <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
@@ -77,12 +77,14 @@
                             <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/send.PNG" class="icon" alt="">
                             <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
                         </div>
-                        <p class="likes">1,012 likes</p>
-                        <p class="description"><span>username</span>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book.</p>
+                        <p class="likes">20,512 likes</p>
+                        <p class="description"><span>ubisoftgamer999</span>
+                        Tom Clancy's Rainbow Six Siege is a first-person shooter game, 
+                        in which players utilize many different operators from the Rainbow team.
+                        Different operators have different nationalities, weapons, and gadgets.
+                        The game features an asymmetrical structure whereby the teams are not always balanced in their choices of 
+                        abilities. The base Counter-Terrorism Units available for play are the FBI SWAT, the British SAS, 
+                        the German GSG-9, the Russian Spetsnaz and the French GIGN.</p>
                         <p class="post-time">2 minutes ago</p>
                     </div>
                     <div class="comment-wrapper">
@@ -94,12 +96,12 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 2.png" alt=""></div>
-                            <p class="username">modern_web_channel</p>
+                            <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/jujustsukaisen.png?raw=true" alt=""></div>
+                            <p class="username">animelover69</p>
                         </div>
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 2.png" class="post-image" alt="">
+                    <img src="https://github.com/knikop/eCommerce/blob/main/profilepics/jujustsukaisen.png?raw=true" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
@@ -107,13 +109,10 @@
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/send.PNG" class="icon" alt="">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
                     </div>
-                    <p class="likes">1,012 likes</p>
-                    <p class="description"><span>username</span>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting 
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type 
-                    and scrambled it to make a type specimen book.</p>
-                    <p class="post-time">2 minutes ago</p>
+                    <p class="likes">100,012 likes</p>
+                    <p class="description"><span>animelover69</span>
+                    One of the best animes ever created of all times...the best....10/10... go watch!!!!</p>
+                    <p class="post-time">20 minutes ago</p>
                     </div>
                     <div class="comment-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
@@ -124,12 +123,12 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 3.png" alt=""></div>
-                            <p class="username">modern_web_channel</p>
+                            <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/1218437.jpg?raw=true" alt=""></div>
+                            <p class="username">luxuryhouse_emporium</p>
                         </div>
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 3.png" class="post-image" alt="">
+                    <img src="https://github.com/knikop/eCommerce/blob/main/profilepics/1218437.jpg?raw=true" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
@@ -138,12 +137,9 @@
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
                         </div>
                         <p class="likes">1,012 likes</p>
-                        <p class="description"><span>username</span>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting 
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type 
-                        and scrambled it to make a type specimen book.</p>
-                        <p class="post-time">2 minutes ago</p>
+                        <p class="description"><span>luxuryhouse_emporium</span>
+                        </p>
+                        <p class="post-time">1 hour ago</p>
                     </div>
                     <div class="comment-wrapper">
                     <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
@@ -154,12 +150,12 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 4.png" alt=""></div>
-                            <p class="username">modern_web_channel</p>
+                            <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/152288.jpg?raw=true" alt=""></div>
+                            <p class="username">callofdutyManiac</p>
                         </div>
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 4.png" class="post-image" alt="">
+                    <img src="https://github.com/knikop/eCommerce/blob/main/profilepics/1470806.jpg?raw=true" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
@@ -168,12 +164,9 @@
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
                     </div>
                     <p class="likes">1,012 likes</p>
-                    <p class="description"><span>username</span>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting 
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type 
-                    and scrambled it to make a type specimen book.</p>
-                    <p class="post-time">2 minutes ago</p>
+                    <p class="description"><span></span>
+                    </p>
+                    <p class="post-time">2 hours ago</p>
                     </div>
                     <div class="comment-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
@@ -184,12 +177,12 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 5.png" alt=""></div>
-                            <p class="username">modern_web_channel</p>
+                            <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/pokemon-tcg-live-preview-1645242791988.jpg?raw=true" alt=""></div>
+                            <p class="username">pokemonenthusiast</p>
                         </div>
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 5.png" class="post-image" alt="">
+                    <img src="https://github.com/knikop/eCommerce/blob/main/profilepics/pokemon-tcg-live-preview-1645242791988.jpg?raw=true" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
@@ -198,12 +191,9 @@
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
                     </div>
                     <p class="likes">1,012 likes</p>
-                    <p class="description"><span>username</span>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting 
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type 
-                    and scrambled it to make a type specimen book.</p>
-                    <p class="post-time">2 minutes ago</p>
+                    <p class="description"><span>pokemonenthusiast</span>
+                    </p>
+                    <p class="post-time">2 hours ago</p>
                     </div>
                     <div class="comment-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
@@ -214,12 +204,12 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 6.png" alt=""></div>
-                            <p class="username">modern_web_channel</p>
+                            <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/Yugioh.png?raw=true" alt=""></div>
+                            <p class="username">iloveYugioh</p>
                         </div>
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 6.png" class="post-image" alt="">
+                    <img src="https://github.com/knikop/eCommerce/blob/main/profilepics/Yugioh.png?raw=true" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
@@ -228,12 +218,9 @@
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
                     </div>
                     <p class="likes">1,012 likes</p>
-                    <p class="description"><span>username</span>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting 
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type 
-                    and scrambled it to make a type specimen book.</p>
-                    <p class="post-time">2 minutes ago</p>
+                    <p class="description"><span>iloveYugioh</span>
+                    </p>
+                    <p class="post-time">4 hours ago</p>
                     </div>
                     <div class="comment-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
@@ -244,12 +231,12 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 7.png" alt=""></div>
-                            <p class="username">modern_web_channel</p>
+                            <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/istockphoto-1157159213-612x612.jpg?raw=true" alt=""></div>
+                            <p class="username">theREALpcgamer</p>
                         </div>
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 7.png" class="post-image" alt="">
+                    <img src="https://github.com/knikop/eCommerce/blob/main/profilepics/istockphoto-1157159213-612x612.jpg?raw=true" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
@@ -258,12 +245,9 @@
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
                     </div>
                     <p class="likes">1,012 likes</p>
-                    <p class="description"><span>username</span>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting 
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type 
-                    and scrambled it to make a type specimen book.</p>
-                    <p class="post-time">2 minutes ago</p>
+                    <p class="description"><span>theREALpcgamer</span>
+                    </p>
+                    <p class="post-time">5 hours ago</p>
                     </div>
                     <div class="comment-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
@@ -274,12 +258,12 @@
                 <div class="post">
                     <div class="info">
                         <div class="user">
-                            <div class="profile-pic"><img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 8.png" alt=""></div>
-                            <p class="username">modern_web_channel</p>
+                            <div class="profile-pic"><img src="https://github.com/knikop/eCommerce/blob/main/profilepics/2022-rolls-royce-ghost-black-badge-105-16gg-1643905036.jpeg?raw=true" alt=""></div>
+                            <p class="username">luxuryCarZ</p>
                         </div>
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/option.PNG" class="options" alt="">
                     </div>
-                    <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/cover 8.png" class="post-image" alt="">
+                    <img src="https://github.com/knikop/eCommerce/blob/main/profilepics/617aafe038046100183f1288.png?raw=true" class="post-image" alt="">
                     <div class="post-content">
                         <div class="reaction-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/like.PNG" class="icon" alt="">
@@ -288,12 +272,9 @@
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/save.PNG" class="save icon" alt="">
                     </div>
                     <p class="likes">1,012 likes</p>
-                    <p class="description"><span>username</span>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting 
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type 
-                    and scrambled it to make a type specimen book.</p>
-                    <p class="post-time">2 minutes ago</p>
+                    <p class="description"><span>luxuryCarZ</span>
+                    </p>
+                    <p class="post-time">7 hours ago</p>
                     </div>
                     <div class="comment-wrapper">
                         <img src="https://raw.githubusercontent.com/knikop/eCommerce/main/app/views/img/smile.PNG" class="icon" alt="">
