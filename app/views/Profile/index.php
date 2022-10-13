@@ -8,30 +8,25 @@
 <body>
 
 <h1>Profile</h1>
-
-
-<h1>List of Profiles</h1>
-<p><!--display the data as a table-->
-	<!-- <a href="/Comment/addComment/<?= $data['user']->user_id ?>">Add a new Comment</a> -->
+<p>
 	<table>
-		
 	<?php
-
 	foreach ($data as $item) {
 		echo "<tr>
-		<td type=name>$item->first_name</td>
+		<td type=name>$item->first_name</td> 
         <td type=name>$item->middle_name</td>
         <td type=name>$item->last_name</td>
 		<td type=action>
-		
+		<a href='/Profile/edit/$item->profile_id'>Edit Profile</a>
 		</td>
 		</tr>";
 	}
-
 ?>
 </table>
 </p>
-<a href='/Comment/index'>Add Comment</a>
+<a href='/Comment/index' style="padding-right: 10px;">Add Comment</a>
+
+<a href='/Publication/index' style="padding-right: 10px;">Add Publication</a>
 <a href='/Main/index'>Back to Main page</a>
 
 </body>

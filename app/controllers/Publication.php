@@ -1,84 +1,50 @@
 <?php
 namespace app\controllers;
 
-class Publication extends \app\core\Controller{
+class Publication extends \app\core\Controller {
 
-	public function index($owner_id){//list of records in context for an owner
-		//GET DATA FROM THE DB
-		$animal = new \app\models\Animal();
-		$animals = $animal->getForOwner($owner_id);
-		$owner= new \app\models\Owner();
-		$owner = $owner->get($owner_id);
-		//call the view
-		$this->view('Animal/index',['animals'=>$animals,'owner'=>$owner]);
-	}
-
-	public function details($animal_id){//detailed view for a record
-		$animal = new \app\models\Animal();
-		$animal = $animal->get($animal_id);
-		$owner_id = $animal->owner_id;
-		$owner = new \app\models\Owner();
-		$owner = $owner->get($owner_id);
-		$this->view('Animal/details', ['animal'=>$animal, 'owner'=>$owner]);
-		//this is the corrected example, a / was missing in front
-		//echo '<img src="/images/' . $animal->profile_pic . '">';
-	}
-
-	public function add($owner_id){//add a new record
+    public function index() {
+		$publication = new \app\models\Comment();
+		$publications = $publication->getAll();
+        $this->view('Publication/index', $publication);
+    }
+    
+    public function add(){
 		if(isset($_POST['action'])){
-			//make a new object
-			$animal = new \app\models\Animal();
-			//populate the object
-			$animal->name = $_POST['name'];
-			$animal->dob = $_POST['dob'];
-			$animal->owner_id = $owner_id;//FK from the parameters
-			//TODO:
-			$filename = $this->saveFile($_FILES['profile_pic']);
-			$animal->profile_pic = $filename;
-			//call insert on the object
-			$animal->insert();
-			header('location:/Animal/index/' . $owner_id);
-//			header("location:/Animal/index/$owner_id");*/
-		}else{
-			$owner = new \app\models\Owner();
-			$owner = $owner->get($owner_id);
-			$this->view('Animal/add',['owner'=>$owner]);
+			$newPublication = new \app\models\Publication();
+			$filename = $this->saveFile($_FILES['picture']);
+			$newPublication->picture = $filename;
+			$newPublication->caption = $_POST['caption'];
+			$newPublication->insert();
+			header('location:/Publication/index');
 		}
+		else
+			$this->view('Publication/add');
 	}
 
-	public function delete($animal_id){//remove a record
-		$animal = new \app\models\Animal();
-		$animal = $animal->get($animal_id);
-		$owner_id = $animal->owner_id;
-		unlink("images/$animal->profile_pic");
-		$animal->delete();
-		header('location:/Animal/index/' . $owner_id);
+	public function delete($publication_id){
+		$publication = new \app\models\Profile();
+		$publication = $publication->get($publication_id);
+		unlink("images/$publication->picture");
+		$publication->delete();
+		header('location:/Publication/index/');
 	}
 
-	public function edit($animal_id){//modify a record
-		$animal = new \app\models\Animal();
-		$animal = $animal->get($animal_id);
-		$owner_id = $animal->owner_id;
+
+	public function edit($publication_id){
+		$publication = new \app\models\Publication();
+		$publication = $publication->get($publication_id);
 		if(isset($_POST['action'])){
-			$filename = $this->saveFile($_FILES['profile_pic']);
+			$filename = $this->saveFile($_FILES['picture']);
 			if($filename){
-				//delete the old picture
-				unlink("images/$animal->profile_pic");
-				//save the reference to the new one
-				$animal->profile_pic = $filename;
+				unlink("images/$publication->picture");
+				$publication->picture = $filename;
 			}
-			$animal->name = $_POST['name'];
-			$animal->dob = $_POST['dob'];
-			$animal->update();
-			//redirect
-			header('location:/Animal/index/' . $owner_id);
+			$publication->caption = $_POST['caption'];
+			$publication->update();
+			header('location:/Publication/index/');
 		}else{
-			$owner = new \app\models\Owner();
-			$owner = $owner->get($owner_id);
-			$this->view('Animal/edit',['owner'=>$owner,'animal'=>$animal]);
+			$this->view('Publication/edit', $publication_id);
 		}
 	}
-
-
-
 }

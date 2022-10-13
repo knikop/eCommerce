@@ -10,10 +10,9 @@
 <h1>New Comment</h1>
 <form action='' method='post' enctype='multipart/form-data'>
 	<label>Comment:<input type="text" name="comment" /></label><br>
-	<!-- <label>Date Time:<input type="date" name="date_time" /></label><br> -->
 	<input type="submit" name="action" value="Add new Comment" />
 </form>
 
-
+<a href='/Comment/index'>Back to comment page</a>
 </body>
 </html>

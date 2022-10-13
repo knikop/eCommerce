@@ -10,6 +10,14 @@ class Publication extends \app\core\Model {
         return $STMT->fetchAll();
     }
 
+    public function get($publication_id){
+		$SQL = "SELECT * FROM publication WHERE publication_id=:publication_id";
+		$STMT = self::$_connection->prepare($SQL);
+		$STMT->execute(['publication_id'=>$publication_id]);
+		$STMT->setFetchMode(\PDO::FETCH_CLASS, 'app\models\Publication');
+		return $STMT->fetch();
+	}
+
     public function getBySearch($keyword) {
         $SQL = ("SELECT * FROM profile WHERE caption LIKE '%$keyword%'") or die("could not search");
         $STMT = self::$_connection->prepare($SQL);
@@ -18,19 +26,18 @@ class Publication extends \app\core\Model {
         return $STMT->fetch();
     }
 
-    function insert($profile_id) { 
-        $SQL = "INSERT INTO publication(profile_id, picture, caption) 
-        VALUES(:user_id, :picture, :caption)";
+    function insert() { 
+        $SQL = "INSERT INTO publication(picture, caption) 
+        VALUES(:picture, :caption)";
         $STMT = self::$_connection->prepare($SQL);
-        $STMT->execute(['profile_id'=>$profile_id, 'picture'=>$this->picture, 
-        'caption'=>$this->caption]);
+        $STMT->execute(['picture'=>$this->picture, 'caption'=>$this->caption]);
     }
 
-    function updateCaption() {
-        $SQL = "UPDATE publication SET caption = :caption
+    function update() {
+        $SQL = "UPDATE publication SET picture = :picture, caption = :caption
         WHERE publication_id = :publication_id";
         $STMT = self::$_connection->prepare($SQL);
-        $STMT->execute(['caption'=>$this->caption, 'publication_id'=>$this->publication_id]);
+        $STMT->execute(['picture'=>$this->picture, 'caption'=>$this->caption, 'publication_id'=>$this->publication_id]);
     }
 
     public function delete(){

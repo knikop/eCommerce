@@ -10,16 +10,15 @@
 <h1>New Publication</h1>
 <form action='' method='post' enctype='multipart/form-data'>
 	<label>Caption:<input type="text" name="caption" /></label><br>	
-    <label>Picture:<input type="file" name="pic" id="pic" /></label><img id='pic_preview' src='/images/blank.jpg' style="max-width:20px;max-height:20px" /><br>
+    <label>Picture:<input type="file" name="picture" id="picture" /></label><img id='pic_preview' src='/images/blank.jpg' style="max-width:250px;max-height:250px" /><br>
 	<input type="submit" name="action" value="Add new publication" />
-    <label>Date Time:<input type="date" name="date_time" /></label><br>
 </form>
 
 <script>
-	pic.onchange = evt => {
-  const [file] = pic.files
+	picture.onchange = evt => {
+  const [file] = picture.files
   if (file) {
-    pic_preview.src = URL.createObjectURL(file)
+    picture_preview.src = URL.createObjectURL(file)
   }
 }
 </script>
