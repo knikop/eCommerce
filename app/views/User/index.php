@@ -75,7 +75,7 @@ if(isset($_GET['error'])){
 			</ul>
 		</div>
 		<div class="copyright">
-			© 2019 INSTAGRAM
+			© 2022 INSTAGRAM
 		</div>
 	</div>
 </div>
