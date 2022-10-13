@@ -3,7 +3,7 @@ namespace app\controllers;
 
 class User extends \app\core\Controller{
 
-	public function index(){//login page
+	public function index(){
 		if(isset($_POST['action'])){
 			$user = new \app\models\User();
 			$user = $user->get($_POST['username']);
@@ -28,10 +28,10 @@ class User extends \app\core\Controller{
 	}
 
 	public function register(){
-		if(isset($_POST['action'])){//form submitted
+		if(isset($_POST['action'])){
 
-			if($_POST['password'] == $_POST['password_confirm']){//match
-				$user = new \app\models\User();//TODO
+			if($_POST['password'] == $_POST['password_confirm']){
+				$user = new \app\models\User();
 				$check = $user->get($_POST['username']);
 				if(!$check){
 					$user->username = $_POST['username'];

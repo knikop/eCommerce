@@ -7,7 +7,7 @@
 
 <body>
 
-<h1>New Profile Information</h1>
+<h1>Edit Profile Information</h1>
 <form action='' method='post' enctype='multipart/form-data'>
 	<label>First Name:<input type="text" name="first_name" /></label>
     <label>Middle Name:<input type="text" name="middle_name" /></label>
