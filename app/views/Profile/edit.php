@@ -9,7 +9,7 @@
 
 <h1>Edit Profile Information</h1>
 <form action='' method='post' enctype='multipart/form-data'>
-	<label>First Name:<input type="text" name="first_name" /></label>
+	<label>First Name:<input type="text" name="first_name" value='<?=$data->first_name?>' /></label>
     <label>Middle Name:<input type="text" name="middle_name" /></label>
     <label>Last Name:<input type="text" name="last_name" /></label>
 	<input type="submit" name="action" value="Save changes" />
